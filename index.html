@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Pratham Portfolio</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .logo span {
+            color: #5bb9d6;
+            text-shadow: 0 0 10px #5bb9d6;
+        }
+        .nav-container .links a {
+            color: white;
+        }
+        .nav-container .links a:hover {
+            color: #5bb9d6;
+        }
+        .nav-container .links a::before {
+            background-color: #5bb9d6;
+        }
+        .content h1 span {
+            color: #5bb9d6;
+            text-shadow: 0  0 10px #5bb9d6;
+        }
+        .typewriter-text {
+            color: #5bb9d6;
+            text-shadow: 0 0 10px #5bb9d6;
+        }
+        .social-links i {
+            border: 0.2rem solid #5bb9d6;
+            color: #5bb9d6;
+        }
+        .social-links i:hover {
+            background-color: #5bb9d6;
+            color: black;
+            filter: drop-shadow(0 0 10px #5bb9d6);
+        }
+        .content button {
+            background-color: #5bb9d6;
+            color: white;
+        }
+        .content button:hover {
+            color: #5bb9d6;
+            border: 2px solid #5bb9d6;
+            box-shadow: 0 0 40px #5bb9d6;
+        }
+        .skills-background img {
+            filter: drop-shadow(0 0 10px #5bb9d6);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Pratham <span>Debnath</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#portfolio">Portfolio</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="main.jpg" alt="Pratham Debnath">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hi, I'm <span>Pratham</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text">Video Editor & Graphic Designer</span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I am a skilled Film and Video Editor and Graphic Designer with expertise in Adobe After Effects, Adobe Premiere Pro, and Davinci Resolve. With over three years of experience, I specialize in creating visually appealing and engaging content for clients worldwide.</p>
+                <div class="social-links">
+                    <a href="https://github.com/isthatpratham" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/prathamfrsure/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button onclick="location.href='mailto:premdebnath08@gmail.com?subject=Job%20Opportunity&body=Hi%20Pratham,%20I%20would%20like%20to%20discuss%20a%20potential%20collaboration.'">Hire me</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section id="about">
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500">About Me</h1>
+                <p data-aos="fade-up" data-aos-duration="1500">I am Pratham Debnath, a passionate Video Editor and Graphic Designer currently in my final year pursuing a Bachelor of Computer Applications (BCA) at DHSK College, Assam.</p>
+                <ul data-aos="fade-up" data-aos-duration="1500">
+                    <li>Skilled in video editing and graphic design, with over three years of experience.</li>
+                    <li>Expertise in Adobe After Effects, Premiere Pro, and Davinci Resolve.</li>
+                    <li>Experience collaborating with clients like Shreya Kalra for YouTube content.</li>
+                    <li>Strong focus on creativity, critical thinking, and delivering high-quality results.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500">Skills</h1>
+                
+                <!-- Video Editing and Designing Section -->
+                <div class="skills-category">
+                    <h2>Video Editing and Designing</h2>
+                    <div class="skills-background">
+                        <div class="skill">
+                            <img src="adobe-after-effects-logo.svg" alt="Adobe After Effects Logo" />
+                            <p>Adobe After Effects</p>
+                        </div>
+                        <div class="skill">
+                            <img src="adobe-premiere-pro-logo.svg" alt="Adobe Premiere Pro Logo" />
+                            <p>Adobe Premiere Pro</p>
+                        </div>
+                        <div class="skill">
+                            <img src="DaVinci_Resolve_17_logo.svg" alt="DaVinci Resolve Logo" />
+                            <p>DaVinci Resolve</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Web Development Section -->
+                <div class="skills-category">
+                    <h2>Web Development</h2>
+                    <div class="skills-background">
+                        <div class="skill">
+                            <img src="Unofficial_JavaScript_logo_2.svg" alt="JavaScript Logo" />
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="skill">
+                            <img src="HTML5_logo_and_wordmark.svg" alt="HTML Logo" />
+                            <p>HTML</p>
+                        </div>
+                        <div class="skill">
+                            <img src="CSS3_logo_and_wordmark.svg" alt="CSS Logo" />
+                            <p>CSS</p>
+                        </div>
+                        <div class="skill">
+                            <img src="PHP-logo.svg" alt="PHP Logo" />
+                            <p>PHP</p>
+                        </div>
+                        <div class="skill">
+                            <img src="Python-logo-notext.svg" alt="Python Logo" />
+                            <p>Python</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Writing Section -->
+                <div class="skills-category">
+                    <h2>Writing</h2>
+                    <div class="skills-background">
+                        <div class="skill">
+                            <img src="icons8-poetry-64 (1).png" alt="Poems Icon" />
+                            <p>Poems</p>
+                        </div>
+                        <div class="skill">
+                            <img src="icons8-poetry-64 (1).png" alt="Prose Icon" />
+                            <p>Proses</p>
+                        </div>
+                        <div class="skill">
+                            <img src="icons8-poetry-64 (1).png" alt="Short Story Icon" />
+                            <p>Short Story Sequels</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section id="portfolio">
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500">Portfolio</h1>
+                <p data-aos="fade-up" data-aos-duration="1500">Check out my recent works at <a href="https://isthatpratham.github.io/portfolio/">my portfolio site</a>. My projects include video edits for Shreya Kalra and branding designs for Niagara Water Bottles.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500">Contact</h1>
+                <p data-aos="fade-up" data-aos-duration="1500">Feel free to reach out to me for collaborations or queries:</p><br>
+                <form action="submit_form.php" method="POST" data-aos="fade-up" data-aos-duration="1500">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br><label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br><label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="3" required></textarea>
+                    <br><br><button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
